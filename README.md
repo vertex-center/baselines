@@ -5,9 +5,7 @@
 
 ## About
 
-This repository exposes latest versions available. These are exposed as "baselines".
-
-A baseline is a set of versions that are made and tested to be compatible together.
+This repository exposes JSON files with the latest versions available. These are exposed as "baselines". A baseline is a set of versions that are made and tested to be compatible together.
 
 > **Important**
 > Actual deployed code is available on the [`static`](https://github.com/vertex-center/baselines/tree/static) branch.
