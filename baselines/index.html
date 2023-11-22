@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertex Center</title>
+</head>
+<body>
+    <div id="app">
+        <p><a href="/stable.json">Last stable version</a> : <span id="last-ver-stable"></span></p>
+        <p><a href="/beta.json">Last beta version</a> : <span id="last-ver-beta"></span></p>
+        <a href="/versions.json">List of all the versions</a>
+        <ul id="all-ver">
+
+        </ul>
+    </div>
+</body>
+<script>
+    (async () => {
+        let data_stable = await fetch('/stable.json')
+        data_stable = await data_stable.json()
+        let data_beta = await fetch('/beta.json')
+        data_beta = await data_beta.json()
+        let data_history = await fetch('/versions.json')
+        data_history = await data_history.json()
+        document.getElementById('last-ver-stable').innerText = data_stable.version
+        document.getElementById('last-ver-beta').innerText = data_beta.version
+        document.getElementById('last-ver-stable').innerText = data_stable.version
+        data_history.forEach(element => {
+            const e = document.createElement('li')
+            e.innerText = element.version
+            document.getElementById('all-ver').appendChild(e)
+        });
+    })()
+</script>
+<style>
+    body {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        background-color: #111111;
+        color: #cfcfcf;
+    }
+</style>
+</html>
