@@ -1,0 +1,8 @@
+{
+    "date": "2023-10-27",
+    "version": "v0.13.0",
+    "description": "This new version introduces an entirely new update process, increase the modularity of the source code, and fixes a wide range of issues.",
+    "vertex": "v0.13.1",
+    "vertex_client": "v0.13.1",
+    "vertex_services": "efec185c36d9d0acb640a1a45e080ed782ed6575"
+}
