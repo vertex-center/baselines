@@ -1,6 +1,14 @@
 [
     {
         "date": "2023-11-22",
+        "version": "v0.14.1",
+        "description": "This new version moves forward in the process of unifying the web components, while also adding many tests and refactoring the code.",
+        "vertex": "v0.14.0",
+        "vertex_client": "v0.14.1",
+        "vertex_services": "efec185c36d9d0acb640a1a45e080ed782ed6575"
+    },
+    {
+        "date": "2023-11-22",
         "version": "v0.14.0",
         "description": "This new version moves forward in the process of unifying the web components, while also adding many tests and refactoring the code.",
         "vertex": "v0.14.0",
