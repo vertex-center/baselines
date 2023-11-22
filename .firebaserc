@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "vertex-center"
+  },
+  "targets": {
+    "vertex-center": {
+      "hosting": {
+        "vertex-baselines": [
+          "vertex-baselines"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
