@@ -1,8 +1,8 @@
 {
     "date": "2023-12-01",
-    "version": "v0.16.0",
+    "version": "v0.16.1",
     "description": "This new release adds the support for Vertex Accounts, internal database, and more.",
     "vertex": "v0.16.0",
-    "vertex_client": "v0.16.1",
+    "vertex_client": "v0.16.2",
     "vertex_services": "efec185c36d9d0acb640a1a45e080ed782ed6575"
 }
