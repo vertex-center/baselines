@@ -1,8 +1,8 @@
 {
-    "date": "2023-11-23",
-    "version": "v0.15.0",
-    "description": "WARNING: this version introduces breaking changes. Please proceed with a clean install. This release fixes various container volume issues.",
-    "vertex": "v0.15.0",
-    "vertex_client": "v0.15.0",
+    "date": "2023-12-01",
+    "version": "v0.16.0",
+    "description": "This new release adds the support for Vertex Accounts, internal database, and more.",
+    "vertex": "v0.16.0",
+    "vertex_client": "v0.16.1",
     "vertex_services": "efec185c36d9d0acb640a1a45e080ed782ed6575"
 }
