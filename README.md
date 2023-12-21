@@ -15,7 +15,8 @@ Vertex Baselines requires `vertex >= 0.13.0`.
 
 Baselines are currently deployed at:
 
-- https://bl.vx.arra.cloud
+- https://bl.vx.arra.red
+- https://bl.vx.arra.cloud (`deprecated`)
 - https://bl.vx.quentinguidee.dev (`deprecated`)
 
 ## License
